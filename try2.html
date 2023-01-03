@@ -5,10 +5,30 @@
     </head>
     <body>
         <h1>Welcome to this page. This is heading 1</h1>
-        <p style="color:brown;text-decoration:underline">My name is : <br>
-        Unknown</p>
+        <p>My name is : <br>
+        <em>Unknown</em></p>
         <h2>This is heading 2</h2>
-        <a href="https://youtu.be/fD4sGaBmWxQ" target="_blank"><img src="https://images.unsplash.com/photo-1508004680771-708b02aabdc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBpY3R1cmV8ZW58MHx8MHx8&w=1000&q=80"></a>
-
+        <style>
+            figure {
+                width: 1000px;
+            }
+        </style>
+        <figure>
+            <a href="https://youtu.be/fD4sGaBmWxQ" target="_blank"><img src="https://images.unsplash.com/photo-1508004680771-708b02aabdc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBpY3R1cmV8ZW58MHx8MHx8&w=1000&q=80" width="100%"></a>
+            <figcaption>View of a mountain</figcaption>
+        </figure>
+        <picture>
+            <source media="(min-width: 360px) and (max-width: 576px)" srcset="img/small_seaview" />
+            <source media="(min-width: 576px) and (max-width: 768px)" srcset="img/medium_seaview" />
+            <img src="img/large_seaview.jpg" width="50%"/>
+        </picture><hr>
+        <figure>
+            <figcaption><strong>Unholy - Sam Smith</strong></figcaption>
+            <audio src="music/10.mp3" controls></audio>
+        </figure><hr>
+        <figure><hr>
+            <figcaption><b>School Video</b></figcaption>
+            <video src="video/schoolmv.mp4" controls width="100%"></video>
+        </figure><hr> 
     </body>
 </html>
