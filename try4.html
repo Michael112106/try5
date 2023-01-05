@@ -5,24 +5,24 @@
         <title>First-Page</title>
     </head>
     <body>
-        <h1>Welcome to this page !</h1>
-        <p>Input the date and time<br><input type="datetime-local"></p>
+        <h1 style="margin:2cm">Welcome to this page !</h1>
+        <p style="margin: 2cm;"><b>Input the date and time</b><br><input type="datetime-local"></p>
         <style>
             figure {
                 width: 1000px;
             }
         </style>
-        <figure>
-            <figcaption><strong>Unholy - Sam Smith</strong></figcaption>
-            <audio src="music/10.mp3" controls></audio>
-            <figcaption><strong>School Video</strong></figcaption>
-            <video src="video/schoolmv.mp4" controls></video>
+        <figure><hr>
+            <figcaption style="margin: 1cm;"><strong>Unholy - Sam Smith</strong></figcaption>
+            <audio src="music/10.mp3" controls style="margin: 1cm; margin-top:0cm"></audio><hr>
+            <figcaption style="margin: 1cm;"><strong>School Video</strong></figcaption>
+            <video src="video/schoolmv.mp4" controls style="margin: 1cm; margin-top:0cm ;"></video><hr>
         </figure>
         <picture>
-            <source media="(min-width: 120px) and (max-width: 360px)" srcset="img/small_seaview"/>
+            <source media="(min-width: 120px) and (max-width: 360px)" srcset="img/small_seaview" style="margin:1cm;"/>
             <source media="(min-width: 360px) and (max-width: 576px)" srcset="img/medium_seaview"/>
             <img src="img/large_seaview.jpg" alt="Sea View"/>
         </picture>
-        <p>Press <a href="directpage_2.html">this</a> to go to the second page</p>
+        <p style="font-size: x-large; margin: 2cm">Press <a href="directpage_2.html" target="_blank" style="font-size: x-large;"><b>this</b></a> to go to the second page</p>
     </body>
 </html>
