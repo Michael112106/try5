@@ -4,29 +4,57 @@
         <title>Form</title>
     </head>
     <body>
-        <form>
-            <label for="username">username : </label>
-            <input type="text" id="username"/><br>
-            <label for="password">password : </label>
-            <input type="password" id="password"/><br>
-            <p>gender :<br>
-            <input type="radio" name="gender" id="male"><label for="male">Male</label>
-            <input type="radio" name="gender" id="female"><label for="female">Female</label></p>
-            <p>hobby:<br>
-            <input type="checkbox" id="hobby"><label for="hobby">basketball</label>
-            <input type="checkbox" id="hobby"><label for="hobby">soccer</label>
-            <input type="checkbox" id="hobby"><label for="hobby">football</label></p>
-            <p>comment :  <br><textarea></textarea><br></p>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <form>
+                        <label for="username">username : </label>
+                        <input type="text" id="username"/><br>
+                        <label for="password">password : </label>
+                        <input type="password" id="password"/><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <p>gender :<br>
+                        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                        <input type="radio" name="gender" id="female"><label for="female">Female</label></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <p>hobby:<br>
+                        <input type="checkbox" id="hobby"><label for="hobby">basketball</label>
+                        <input type="checkbox" id="hobby"><label for="hobby">soccer</label>
+                        <input type="checkbox" id="hobby"><label for="hobby">football</label></p>
+                        
+                </td> 
+            </tr>  
+            <tr>
+                <td>
+                        <p>comment :  <br><textarea></textarea><br></p>
+                </td>
+            </tr>
+            <tr>
+                <td>  
+                        <p>city : <br><select>
+                            <option>Bandung</option>
+                            <option>Jakarta</option>
+                            <option>Yogyakarta</option>
+                            <option>Tangerang</option>
+                            <option>Bekasi</option>
+                            <option>Banten</option>
+                        </select></p><br>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                        <button type="submit">Send!</button>
+                    </form>
+                </td>
+            </tr>
+                
             
-            <p>city : <br><select>
-                <option>Bandung</option>
-                <option>Jakarta</option>
-                <option>Yogyakarta</option>
-                <option>Tangerang</option>
-                <option>Bekasi</option>
-                <option>Banten</option>
-            </select></p><br>
-            <button type="submit">Send!</button>
-        </form>
+        </table>
     </body>
 </html>
