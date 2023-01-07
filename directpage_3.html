@@ -6,35 +6,41 @@
     </head>
     <body>
         <h1 style="font-size: x-large;">Welcome to this page</h1>
-        <p>Please complete the information below</p>
-        <table>
+        <p style="font-size: large;">Please complete the information below</p>
+        <table cellspacing="0" cellpadding="1">
             <tr>
-                <td>
+                <td colspan="">
                     <label for="username">Username :</label>
+                </td>
+                <td>
                     <input type="text" id="username"/>
                 </td>
             </tr>
             <tr>
                 <td>
                     <label for="password">Password :</label>
+                </td>
+                <td>
                     <input type="text" id="password"/>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2">
                     <input type="radio" id="male" name="gender"/><label for="male">Male</label>
                     <input type="radio" id="female" name="gender"/><label for="female">Female</label>
                 </td>
+                <td></td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2">
                     <input type="checkbox" id="hobby"/><label for="hobby">Basketball</label>
                     <input type="checkbox" id="hobby"/><label for="hobby">Football</label>
                     <input type="checkbox" id="hobby"/><label for="hobby">Soccer</label>
                 </td>
+                <td></td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2">
                     <select>
                         <option>Bandung</option>
                         <option>Tangerang</option>
@@ -44,12 +50,15 @@
                         <option>Jakarta</option>
                     </select>
                 </td>
+                <td></td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2">
                     <button type="submit">Send!</button>
                 </td>
+                <td></td>
             </tr>
-        </table>
+        </table><br>
+        <p style="font-size: large;">Press <a href="try7.html">this</a> to go back to the first page</p>
     </body>
 </html>
