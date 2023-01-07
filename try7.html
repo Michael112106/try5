@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>First-Page</title>
+    </head>
+    <body>
+        <h1 style="margin: 1cm; font-size: x-larger;">Welcome to this page ! </h1>
+        <p style="margin: 1cm; font-size: larger;">My name is : <br> <b>Tony</b></p>
+        <p style="margin: 1cm; font-size: larger;">Click <a href="directpage_3.html>"><b>this</b></a> to go to the second page !</p>
+        <style>
+            figure {
+                width: 1000px;
+            }
+        </style>
+        <figure>
+            <figcaption style="font-size: larger;">Picture of Groot</figcaption>
+            <picture>
+                <source media="(min-width:360px) and (max-width:576px)" srcset="img/groot-small"/>
+                <source media="(min-width:576px) and (max-width:768px)" srcset="img/groot-mediun"/>
+                <img width="75%" src="img/groot-large_728x410.jpg">
+            </picture>
+        </figure>
+        <figure>
+            <figcaption style="font-size: larger;">Unholy - Sam Smith</figcaption>
+            <audio src="music/10.mp3" controls></audio>
+        </figure>
+        <figure>
+            <figcaption style="font-size: larger;">School Video</figcaption>
+            <video src="video/schoolmv.mp4" controls width="75%"></video>
+        </figure>
+    </body>
+</html>
